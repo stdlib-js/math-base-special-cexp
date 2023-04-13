@@ -54,6 +54,11 @@ The [exponential][exponential-function] function of a complex number is defined 
 To use in Observable,
 
 ```javascript
+cexp = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cexp@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-cexp/tags). For example,
+
+```javascript
 cexp = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cexp@v0.0.6-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var cexp = require( 'path/to/vendor/umd/math-base-special-cexp/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cexp@v0.0.6-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cexp@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -123,7 +128,7 @@ im = imag( v );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cexp@v0.0.6-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cexp@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
