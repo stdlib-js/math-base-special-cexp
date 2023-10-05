@@ -36,8 +36,8 @@ var cexp = require( './../../dist' );
 
 // FIXTURES //
 
-var pureImaginary = require( './../..xtures/julia/pure_imaginary.json' );
-var generalComplex = require( './../..xtures/julia/general_complex.json' );
+var pureImaginary = require( './../fixtures/julia/pure_imaginary.json' );
+var generalComplex = require( './../fixtures/julia/general_complex.json' );
 
 
 // TESTS //
