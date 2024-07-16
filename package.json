@@ -41,9 +41,9 @@
   },
   "dependencies": {
     "@stdlib/complex-float64-ctor": "^0.0.1",
+    "@stdlib/complex-float64-reim": "github:stdlib-js/complex-float64-reim#main",
     "@stdlib/complex-imag": "^0.2.1",
     "@stdlib/complex-real": "^0.2.1",
-    "@stdlib/complex-reim": "^0.2.1",
     "@stdlib/constants-float64-ninf": "^0.2.1",
     "@stdlib/constants-float64-pinf": "^0.2.1",
     "@stdlib/math-base-assert-is-infinite": "^0.2.1",
