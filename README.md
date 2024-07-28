@@ -63,7 +63,7 @@ The [exponential][exponential-function] function of a complex number is defined 
 ## Usage
 
 ```javascript
-import cexp from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cexp@deno/mod.js';
+import cexp from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cexp@v0.2.2-deno/mod.js';
 ```
 
 #### cexp( z )
@@ -107,7 +107,7 @@ im = imag( v );
 ```javascript
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@deno/mod.js';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
-import cexp from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cexp@deno/mod.js';
+import cexp from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cexp@v0.2.2-deno/mod.js';
 
 function randomComplex() {
     var re = discreteUniform( -50, 50 );
