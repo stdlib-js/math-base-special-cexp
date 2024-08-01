@@ -51,7 +51,7 @@
     "@stdlib/math-base-napi-unary": "^0.2.3",
     "@stdlib/math-base-special-copysign": "^0.2.2",
     "@stdlib/math-base-special-exp": "^0.2.4",
-    "@stdlib/math-base-special-sincos": "^0.2.1",
+    "@stdlib/math-base-special-sincos": "^0.3.0",
     "@stdlib/types": "^0.3.2",
     "@stdlib/utils-library-manifest": "^0.2.2"
   },
@@ -60,7 +60,7 @@
     "@stdlib/math-base-assert-is-negative-zero": "^0.2.2",
     "@stdlib/math-base-assert-is-positive-zero": "^0.2.2",
     "@stdlib/math-base-special-abs": "^0.2.2",
-    "@stdlib/math-base-special-cexp": "^0.2.1",
+    "@stdlib/math-base-special-cexp": "^0.2.2",
     "@stdlib/random-base-discrete-uniform": "^0.2.1",
     "@stdlib/random-base-uniform": "^0.2.1",
     "@stdlib/utils-try-require": "^0.2.2",
