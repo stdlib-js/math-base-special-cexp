@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2019 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,18 +16,22 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { Complex128 } from '@stdlib/types/complex';
 
 /**
-* Evaluate the exponential function for a double-precision complex floating-point number.
+* Evaluates the exponential function for a double-precision complex floating-point number.
 *
-* @module @stdlib/math-base-special-cexp
+* @param z - complex number
+* @returns result
 *
 * @example
 * var Complex128 = require( '@stdlib/complex-float64-ctor' );
 * var real = require( '@stdlib/complex-float64-real' );
 * var imag = require( '@stdlib/complex-float64-imag' );
-* var cexp = require( '@stdlib/math-base-special-cexp' );
 *
 * var v = cexp( new Complex128( 0.0, 0.0 ) );
 * // returns <Complex128>
@@ -37,13 +41,24 @@
 *
 * var im = imag( v );
 * // returns 0.0
+*
+* @example
+* var Complex128 = require( '@stdlib/complex-float64-ctor' );
+* var real = require( '@stdlib/complex-float64-real' );
+* var imag = require( '@stdlib/complex-float64-imag' );
+*
+* var v = cexp( new Complex128( 1.0, 0.0 ) );
+* // returns <Complex128>
+*
+* var re = real( v );
+* // returns ~2.718
+*
+* var im = imag( v );
+* // returns 0.0
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function cexp( z: Complex128 ): Complex128;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = cexp;
