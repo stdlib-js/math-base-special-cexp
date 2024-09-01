@@ -129,13 +129,11 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ### BREAKING CHANGES
 
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
--   [`5318182`](https://github.com/stdlib-js/stdlib/commit/5318182b059207761c0e874374e6b9b11ae4d9ea): refactor API and add C API to `math/base/special/cexp`
--   [`5318182`](https://github.com/stdlib-js/stdlib/commit/5318182b059207761c0e874374e6b9b11ae4d9ea): remove support for `out` argument 
+-   [`5318182`](https://github.com/stdlib-js/stdlib/commit/5318182b059207761c0e874374e6b9b11ae4d9ea): remove support for `out` argument
 
     -   To migrate, users should provide a `Complex128` object, rather than an output array and real and imaginary components.
 
