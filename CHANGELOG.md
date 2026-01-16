@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-09)
+## Unreleased (2026-01-16)
 
 <section class="reverts">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`b18cbc4`](https://github.com/stdlib-js/stdlib/commit/b18cbc48334f3a417ea68d706df69b683b7ad20c) - **docs:** improve doctests for complex number instances in `math/base/special/cexp` [(#9769)](https://github.com/stdlib-js/stdlib/pull/9769) _(by Vishal Gaikwad)_
 -   [`bbcaf4d`](https://github.com/stdlib-js/stdlib/commit/bbcaf4dd3d3fba54504921433eff185ea07d7a54) - **chore:** add structured package data for `math/base/special/cexp` [(#8456)](https://github.com/stdlib-js/stdlib/pull/8456) _(by Manvith M, Athan Reines)_
 -   [`6f85067`](https://github.com/stdlib-js/stdlib/commit/6f8506775cdf2b3edf740216340ff7a0a82677dc) - **test:** fix malformed test descriptions from strictEqual migration _(by Philipp Burckhardt)_
 -   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
@@ -57,7 +58,7 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
@@ -66,6 +67,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 -   Manvith M
 -   Philipp Burckhardt
 -   Saurabh Singh
+-   Vishal Gaikwad
 
 </section>
 

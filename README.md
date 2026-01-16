@@ -90,26 +90,12 @@ Evaluates the [exponential][exponential-function] function for a double-precisio
 
 ```javascript
 var Complex128 = require( '@stdlib/complex-float64-ctor' );
-var real = require( '@stdlib/complex-float64-real' );
-var imag = require( '@stdlib/complex-float64-imag' );
 
 var v = cexp( new Complex128( 0.0, 0.0 ) );
-// returns <Complex128>
-
-var re = real( v );
-// returns 1.0
-
-var im = imag( v );
-// returns 0.0
+// returns <Complex128>[ 1.0, 0.0 ]
 
 v = cexp( new Complex128( 0.0, 1.0 ) );
-// returns <Complex128>
-
-re = real( v );
-// returns ~0.540
-
-im = imag( v );
-// returns ~0.841
+// returns <Complex128>[ ~0.540, ~0.841 ]
 ```
 
 </section>
@@ -291,7 +277,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -317,8 +303,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
