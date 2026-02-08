@@ -63,6 +63,11 @@ The [exponential][exponential-function] function of a complex number is defined 
 ## Usage
 
 ```javascript
+import cexp from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cexp@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-cexp/tags). For example,
+
+```javascript
 import cexp from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cexp@v0.2.3-esm/index.mjs';
 ```
 
@@ -98,7 +103,7 @@ v = cexp( new Complex128( 0.0, 1.0 ) );
 
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@esm/index.mjs';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
-import cexp from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cexp@v0.2.3-esm/index.mjs';
+import cexp from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cexp@esm/index.mjs';
 
 function randomComplex() {
     var re = discreteUniform( -50, 50 );
