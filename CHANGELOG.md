@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-20)
+## Unreleased (2026-10-02)
+
+<section class="features">
+
+### Features
+
+-   [`019291d`](https://github.com/stdlib-js/stdlib/commit/019291d53f6305e81eaf695ce915a2c2d10f981e) - add `assign` and `strided` methods to `math/base/special/cexp` [(#14106)](https://github.com/stdlib-js/stdlib/pull/14106)
+
+</section>
+
+<!-- /.features -->
 
 <section class="bug-fixes">
 
@@ -22,6 +32,7 @@
 
 <details>
 
+-   [`019291d`](https://github.com/stdlib-js/stdlib/commit/019291d53f6305e81eaf695ce915a2c2d10f981e) - **feat:** add `assign` and `strided` methods to `math/base/special/cexp` [(#14106)](https://github.com/stdlib-js/stdlib/pull/14106) _(by Karan Anand)_
 -   [`d43ae9f`](https://github.com/stdlib-js/stdlib/commit/d43ae9f2060ef4080815d931424fc16f3c61b744) - **test:** migrate `math/base/special/cexp` to ULP-based assertions [(#14165)](https://github.com/stdlib-js/stdlib/pull/14165) _(by Philipp Burckhardt)_
 -   [`d95a002`](https://github.com/stdlib-js/stdlib/commit/d95a002c08feee22ca4b37924a13199ceca37b59) - **fix:** remove unused variable _(by Athan Reines)_
 -   [`b246b1c`](https://github.com/stdlib-js/stdlib/commit/b246b1c1c96fff341f78ba537d5945355cc1409a) - **refactor:** avoid array allocation _(by Athan Reines)_
