@@ -63,7 +63,7 @@
     "@stdlib/assert-is-almost-same-value": "^0.1.1",
     "@stdlib/assert-is-method": "^0.2.3",
     "@stdlib/assert-is-same-float64array": "^0.2.3",
-    "@stdlib/console-log-each-map": "^0.1.1",
+    "@stdlib/console-log-each-map": "^0.1.2",
     "@stdlib/math-base-assert-is-negative-zero": "^0.2.3",
     "@stdlib/math-base-assert-is-positive-zero": "^0.2.3",
     "@stdlib/random-array-uniform": "^0.2.2",
